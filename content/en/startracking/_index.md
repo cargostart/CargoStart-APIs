@@ -1,11 +1,12 @@
 
 ---
-title: "Documentation"
-linkTitle: "Documentation"
+title: "StarTracking"
+linkTitle: "StarTracking"
+type: docs
 weight: 20
 menu:
   main:
-    weight: 60
+    weight: 20
 ---
 
 {{% pageinfo %}}
