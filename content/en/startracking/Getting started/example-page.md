@@ -4,6 +4,7 @@ tags: ["test", "sample", "docs"]
 title: "Example Page"
 linkTitle: "Example Page"
 date: 2017-01-05
+type: docs
 description: >
   A short lead description about this content page. It can be **bold** or _italic_ and can be split over multiple paragraphs.
 ---

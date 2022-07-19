@@ -3,6 +3,8 @@ categories: ["Examples", "Placeholders"]
 tags: ["test","docs"] 
 title: "Getting Started"
 linkTitle: "Getting Started"
+date: 2022-07-19
+type: docs
 weight: 2
 description: >
   What does your user need to know to try your project?
@@ -20,18 +22,8 @@ Information in this section helps your user try your project themselves.
 
 Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
 
-## Prerequisites
-
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
-
-## Installation
+## A sneak peek introduction
 
 Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
 
-## Setup
-
-Is there any initial setup users need to do after installation to try your project?
-
-## Try it out!
-
-Can your users test their installation, for example by running a command or deploying a Hello World example?
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/413181162?h=f3394114cd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="CargoStart API a Sneak Peek introduction"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
