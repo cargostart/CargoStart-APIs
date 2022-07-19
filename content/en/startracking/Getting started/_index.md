@@ -5,7 +5,7 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 date: 2022-07-19
 type: docs
-weight: 2
+weight: 1
 description: >
   What does your user need to know to try your project?
 ---

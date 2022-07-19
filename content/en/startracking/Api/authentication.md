@@ -19,7 +19,7 @@ First, you need a user id and a password to log in; usually, these credentials a
 
 Now you can access our [login](https://api.startracking.aero/user/login) endpoint and retrieve your authorization token
 
-```json
+```http
 POST /user/login HTTP/1.1
 Host: api.startracking.aero
 Content-Type: application/json
