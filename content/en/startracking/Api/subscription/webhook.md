@@ -7,11 +7,11 @@ date: 2022-07-19
 type: docs
 weight: 30
 description: >
-  Our API implements a robust and reliable message routing dispatcher.
+  
 ---
-We assume you are already familiar with our API and authentication; if not please watch before:
-* **[CargoStart API a Sneak Peek introduction](/startracking/getting-started/#a-sneak-peek-introduction)**
-* **[StarTracking Authentication and Authorization](/startracking/api/authentication/)**
+> We assume you are already familiar with our API and authentication; if not please watch before:
+> * **[CargoStart API a Sneak Peek introduction](/startracking/getting-started/#a-sneak-peek-introduction)**
+> * **[StarTracking Authentication and Authorization](/startracking/api/authentication/)**
 
 In short, when one of the desired events are triggered (such as Routemap replan, Milestone Update, etc.), StarTracking will send an HTTP POST payload to a sender webhook's sender URL.
 
