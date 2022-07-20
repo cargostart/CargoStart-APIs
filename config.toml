@@ -91,7 +91,7 @@ weight = 1
 section = ["HTML"]
 
 [params]
-copyright = "(C) Copyright MMXXII by Cargo Start srl"
+copyright = "by Cargo Start S.r.l. - "
 privacy_policy = "https://www.cargostart.net/privacy-policy/"
 
 # First one is picked as the Twitter card image if not set on page.
