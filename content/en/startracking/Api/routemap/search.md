@@ -16,7 +16,7 @@ POST /ffw/startracking/routemap HTTP/1.1
 Host: api.startracking.aero
 Accept: application/json, text/json
 Content-Type: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5zdGFydHJhY2tpbmcuYWVybyIsInN1YiI6IklUQUxJQU5TUEVEX0FQSSIsIm5iZiI6MTY1ODIzNjUxMCwiaWF0IjoxNjU4MjM2NTEwLCJleHAiOjE2NTgyNDAxMTAsIm5hbWUiOiJJVEFMSUFOU1BFRF9BUEkiLCJhZG1pbiI6ZmFsc2V9.p_e23mQy6wUVWDm0Q8NDrDklc0roIPCMAqEkv5GNxpE
+Authorization: Bearer {{BEARER TOKEN}}
 Content-Length: 104
 
 {

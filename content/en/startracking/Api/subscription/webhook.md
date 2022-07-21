@@ -5,7 +5,7 @@ title: "Webhook"
 linkTitle: "Webhook"
 date: 2022-07-19
 type: docs
-weight: 30
+weight: 10
 description: >
   
 ---
@@ -25,7 +25,7 @@ POST /ffw/startracking/routemap/webhook HTTP/1.1
 Host: api.startracking.aero
 Accept: application/json, text/plain, */*
 Content-Type: application/json;charset=UTF-8
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5zdGFydHJhY2tpbmcuYWVybyIsInN1YiI6IkZWQUdPQ01QIiwibmJmIjoxNjU4MjQwMTgzLCJpYXQiOjE2NTgyNDAxODMsImV4cCI6MTY1ODI0NzM4MywibmFtZSI6IkZWQUdPQ01QIiwiYWRtaW4iOmZhbHNlfQ.XMyFGUC84oh2g3s9-4EkCFwcjP3mSclBbjnz8XvLsnE
+Authorization: Bearer {{BEARER TOKEN}}
 Content-Length: 177
 
 {
@@ -69,5 +69,6 @@ GET /ffw/startracking/routemap/webhook HTTP/1.1
 Host: api.startracking.aero
 Accept-Encoding: gzip, deflate, br
 Accept: application/json
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5zdGFydHJhY2tpbmcuYWVybyIsInN1YiI6IkZWQUdPQ01QIiwibmJmIjoxNjU4MjQwMTgzLCJpYXQiOjE2NTgyNDAxODMsImV4cCI6MTY1ODI0NzM4MywibmFtZSI6IkZWQUdPQ01QIiwiYWRtaW4iOmZhbHNlfQ.XMyFGUC84oh2g3s9-4EkCFwcjP3mSclBbjnz8XvLsnE
+Authorization: Bearer {{BEARER TOKEN}}
 ```
+

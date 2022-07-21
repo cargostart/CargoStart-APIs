@@ -18,7 +18,7 @@ The request body is straightforward, all you need is to provide the full AWB # a
 ```http
 POST /ffw/startracking/routemap/sendsme HTTP/1.1
 Host: api.startracking.aero
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS5zdGFydHJhY2tpbmcuYWVybyIsInN1YiI6IkZWQUdPQ01QIiwibmJmIjoxNjU4MjQwMTgzLCJpYXQiOjE2NTgyNDAxODMsImV4cCI6MTY1ODI0NzM4MywibmFtZSI6IkZWQUdPQ01QIiwiYWRtaW4iOmZhbHNlfQ.XMyFGUC84oh2g3s9-4EkCFwcjP3mSclBbjnz8XvLsnE
+Authorization: Bearer {{BEARER TOKEN}}
 Content-Type: application/json
 Content-Length: 109
 
