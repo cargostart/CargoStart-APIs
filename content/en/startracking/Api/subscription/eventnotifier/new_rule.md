@@ -7,28 +7,139 @@ date: 2022-07-19
 type: docs
 weight: 10
 description: >
-    Everything starts by creating a Rule:
+    Everything starts by creating a Rule; Lets set some examples:
 ---
-
-> Lets set some examples:
 
 ## Channel Type: EMAIL
 
-### Example #1
-As a Freight Forwarder, I want to notify **- VIA EMAIL -** my local office when the shipment is ready for pick up at the destination.
-To do that, we create a new rule. Then, we can decide to apply the rule for all the available Carriers or a specific one; we could type a full AWB number if we want to monitor only a single shipment.
-We indicate the JFK airport as arrival, "Event" as "alert type", and "ARR" as milestone event. Finally, we can type our JFK office email address and choose the email format between plain text or HTML, ad save.
+### Use Case #1 (Alert of type "Event")
+As a Freight Forwarder, you want to notify your JFK local office when the shipment has arrived at destination. 
 
-### Example #2
-As a Freight Forwarder, I want to receive a notification the moment the event does not occur.
-For example, we can receive a notification if we forget to transmit our FWB msgs to the Carrier. Receiving this email will prevent future carriers charges.
-To do that, we will set a rule to receive a Missed Event notification for each shipment missing FWB message.
+```http
+POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
+Host: dev.cargostart.tech
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Authorization: Bearer {{BEARER TOKEN}}
+Content-Type: application/json;charset=UTF-8
+Content-Length: 341
 
-### Example #3
+{
+    "ChannelType": "Email",
+    "AirlinePrefix": "*",
+    "Event": "NFD",
+    "NotifyTo": "jfk_station@acme.com",
+    "HeaderItems": "AWB,MIL,NTF",
+    "FormatType": "Html",
+    "EventAlert": true,
+    "Destination": "JFK",
+    "Enabled": false
+}
+```
+
+We can decide to apply the rule for a specific carrier
+
+```http
+POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
+Host: dev.cargostart.tech
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Authorization: Bearer {{BEARER TOKEN}}
+Content-Type: application/json;charset=UTF-8
+Content-Length: 341
+
+{
+    "ChannelType": "Email",
+    "AirlinePrefix": "020",
+    "Event": "NFD",
+    "NotifyTo": "jfk_station@acme.com",
+    "HeaderItems": "AWB,MIL,NTF",
+    "FormatType": "Html",
+    "EventAlert": true,
+    "Destination": "JFK",
+    "Enabled": false
+}
+```
+
+or notify only a specific full AWB number in case we want to monitor only a single shipment.
+
+```http
+POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
+Host: dev.cargostart.tech
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Authorization: Bearer {{BEARER TOKEN}}
+Content-Type: application/json;charset=UTF-8
+Content-Length: 341
+
+{
+    "ChannelType": "Email",
+    "AirlinePrefix": "020",
+    "AwbNumber": "12345675",
+    "Event": "NFD",
+    "NotifyTo": "jfk_station@acme.com",
+    "HeaderItems": "AWB,MIL,NTF",
+    "FormatType": "Html",
+    "EventAlert": true,
+    "Destination": "JFK",
+    "Enabled": false
+}
+```
+
+### Use Case #2 (Alert of type "Missed Event")
+As a Freight Forwarder, I want to receive a notification when a chosen event does not occur.
+In this case, I want to receive a notification in case the planned departure of a leg doesn't happen.
+
+```http
+POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
+Host: dev.cargostart.tech
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Rldi5jYXJnb3N0YXJ0LnRlY2giLCJzdWIiOiJFT0xfQ01QIiwibmJmIjoxNjYwODA3MjA3LCJpYXQiOjE2NjA4MDcyMDcsImV4cCI6MTY2MDgxMDgwNywibmFtZSI6IkVPTF9DTVAiLCJhZG1pbiI6ZmFsc2V9.VsCws-2nqxpLVS9j_Q0dlisRYzkWC2_S5yA8gAfkqcI
+Content-Type: application/json;charset=UTF-8
+Content-Length: 236
+
+{
+    "ChannelType": "Email",
+    "AirlinePrefix": "*",
+    "Event": "DEP",
+    "NotifyTo": "operations@acme.com",
+    "HeaderItems": "AWB,MIL,NTF",
+    "FormatType": "Html",
+    "MissedEventAlert": true,
+    "Enabled": false
+}
+```
+
+> Note: Missed Eveent works only for CiQ Routemap
+
+### Use Case #3
 As a Freight Forwarder, I want to be notified only when a real problem occurs. 
 In this example, using the Proactive Milestone, Star Tracking will notify the user that the departure message did not occur within a user custom defined interval (e.g. 240 minutes).
 
-## Channel Type: URL
+```http
+POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
+Host: dev.cargostart.tech
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Rldi5jYXJnb3N0YXJ0LnRlY2giLCJzdWIiOiJFT0xfQ01QIiwibmJmIjoxNjYwODA3MjA3LCJpYXQiOjE2NjA4MDcyMDcsImV4cCI6MTY2MDgxMDgwNywibmFtZSI6IkVPTF9DTVAiLCJhZG1pbiI6ZmFsc2V9.VsCws-2nqxpLVS9j_Q0dlisRYzkWC2_S5yA8gAfkqcI
+Content-Type: application/json;charset=UTF-8
+Content-Length: 261
+
+{
+    "ChannelType": "Email",
+    "AirlinePrefix": "*",
+    "Event": "DEP",
+    "NotifyTo": "operations@acme.com",
+    "HeaderItems": "AWB,MIL,NTF",
+    "FormatType": "Html",
+    "ProActiveAlert": true,
+    "ProActiveTime": 240,
+    "Enabled": false
+}
+```
+
+## Channel Type: URL (API)
 
 As a Freight Forwarder I want to be notified for all my shipments, only the actual events of type DEP, ARR, NFD and DLV
  
