@@ -119,7 +119,7 @@ POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
 Host: dev.cargostart.tech
 Accept: application/json, text/plain, */*
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Rldi5jYXJnb3N0YXJ0LnRlY2giLCJzdWIiOiJFT0xfQ01QIiwibmJmIjoxNjYwODA3MjA3LCJpYXQiOjE2NjA4MDcyMDcsImV4cCI6MTY2MDgxMDgwNywibmFtZSI6IkVPTF9DTVAiLCJhZG1pbiI6ZmFsc2V9.VsCws-2nqxpLVS9j_Q0dlisRYzkWC2_S5yA8gAfkqcI
+Authorization: Bearer {{BEARER TOKEN}}
 Content-Type: application/json;charset=UTF-8
 Content-Length: 236
 
@@ -146,7 +146,7 @@ POST /api.startracking/ffw/startracking/routemap/eventconfignotifier HTTP/1.1
 Host: dev.cargostart.tech
 Accept: application/json, text/plain, */*
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
-Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2Rldi5jYXJnb3N0YXJ0LnRlY2giLCJzdWIiOiJFT0xfQ01QIiwibmJmIjoxNjYwODA3MjA3LCJpYXQiOjE2NjA4MDcyMDcsImV4cCI6MTY2MDgxMDgwNywibmFtZSI6IkVPTF9DTVAiLCJhZG1pbiI6ZmFsc2V9.VsCws-2nqxpLVS9j_Q0dlisRYzkWC2_S5yA8gAfkqcI
+Authorization: Bearer {{BEARER TOKEN}}
 Content-Type: application/json;charset=UTF-8
 Content-Length: 261
 
