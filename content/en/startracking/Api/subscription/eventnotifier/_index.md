@@ -12,8 +12,6 @@ description: >
 > * **[CargoStart API a Sneak Peek introduction](/startracking/getting-started/#a-sneak-peek-introduction)**
 > * **[StarTracking Authentication and Authorization](/startracking/api/authentication/)**
 
-> PRELIMINARY DOCUMENTATION
-
 One of the most requested features was to obtain all the events in real-time.
 Our new and flexible engine allows you to customize your real-time notifications according to your needs.
 

@@ -276,6 +276,6 @@ Content-Length: 820
 ```
 
 {{< alert title="Note" >}}
-[EventNotifier OpenAPI Client](https://github.com/cargostart/EventNotifier) defines the endpoint that accepts StarTracking notification payload. 
+[EventNotifier OpenAPI Client](https://github.com/cargostart/EventNotifier) defines the endpoint that accepts the StarTracking notification payload. 
 {{< /alert >}}
 
