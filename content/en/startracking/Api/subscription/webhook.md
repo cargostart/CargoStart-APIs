@@ -9,7 +9,7 @@ weight: 10
 description: >
   
 ---
-> We assume you are already familiar with our API and authentication; if not please watch before:
+> We assume you are already familiar with our API authentication; if not please watch before:
 > * **[CargoStart API a Sneak Peek introduction](/startracking/getting-started/#a-sneak-peek-introduction)**
 > * **[StarTracking Authentication and Authorization](/startracking/api/authentication/)**
 
