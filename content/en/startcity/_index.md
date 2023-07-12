@@ -1,7 +1,7 @@
 
 ---
 title: "StartCity"
-linkTitle: "StarCity"
+linkTitle: "StartCity"
 type: docs
 weight: 20
 menu:

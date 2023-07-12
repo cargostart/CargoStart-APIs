@@ -7,10 +7,10 @@ weight: 10
 ---
 
 ```
-OCI/IT/EXP/M/15ITQ1V1T0240456E9
+OCI/IT/EXP/M/**15ITQ1V1T0240456E9**
 //COR//X
 ```
-**15ITQ1V1T0240456E9** is the _MRN_; **X** is the customs status (eg. X, T1, T2, TBD).
+**15ITQ1V1T0240456E9** is the _MRN #_; **X** is the customs status (eg. X, T1, T2, TBD).
 
 > Note: in case the customs status is **TBD** (To Be Declared), the related data must e reported to the _Customs Agent_.
 

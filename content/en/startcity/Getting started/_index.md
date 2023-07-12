@@ -1,13 +1,11 @@
+
 ---
-categories: ["SmartCity", "Placeholders"]
-tags: ["test","docs"] 
 title: "Getting Started"
 linkTitle: "Getting Started"
-date: 2023-11-07
 type: docs
-weight: 1
-description: A sneak peek introduction
+weight: 20
 ---
+
 The interaction with the **Malpensa Smart City** can happen in two ways:
 
 -   Using the log-in area of the website, entering the necessary data on a specific screen manually;
@@ -18,3 +16,5 @@ The interaction with the **Malpensa Smart City** can happen in two ways:
 **[CargoStart Start City](https://www.cargostart.net/solution/start-city/)** formats the messages and sends it to the Ecosystem Cargo MXP.
 
 Thanks to our partnership with software houses specialised in the airfreight industry, the service can be directly integrated in the management systems in use.
+
+> Requirements: The freight forwarder must have a TMS to generate and send CargoIMP messages. FWB, FHL for Phase L1, FFM for Phase L2.
