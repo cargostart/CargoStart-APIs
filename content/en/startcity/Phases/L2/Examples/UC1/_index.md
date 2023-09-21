@@ -47,7 +47,7 @@ weight: 10
  ///ST/..DN..DRIVER NAME..DN..
  ///ST/..DT..PASSAPORTO..DT..
  ///ST/..DA..AUTHORITY..DA..
- ///ST/..DN..1234567890..DN..
+ ///ST/..DI..1234567890..DN..
  ///ST/..PN..AX086VZ..PN..
  ///ST/..SN..12345678..SN..
  ///ST/..CN..DRIVER COMPANY NAME..CN..
@@ -55,7 +55,7 @@ weight: 10
  ///ST/..DN2..DRIVER NAME..DN2..
  ///ST/..DT2..PASSAPORTO..DT2..
  ///ST/..DA2..AUTHORITY..DA2..
- ///ST/..DN2..1234567890..DN2..
+ ///ST/..DI2..1234567890..DN2..
  ///ST/..CN2..COMPANY NAME..CN2..
  LAST
 ```
