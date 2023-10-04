@@ -45,7 +45,7 @@ weight: 10
  ///ST/..H..MLE..H..
  ///ST/..AG..VCT..AG..
  ///ST/..DN..DRIVER NAME..DN..
- ///ST/..DT..PASSAPORTO..DT..
+ ///ST/..DT..PASSPORT..DT..
  ///ST/..DA..AUTHORITY..DA..
  ///ST/..DI..1234567890..DN..
  ///ST/..PN..AZ000ZZ..PN..
@@ -53,7 +53,7 @@ weight: 10
  ///ST/..CN..DRIVER COMPANY NAME..CN..
  ///ST/..TN..TRUCK COMPANY NAME..TN..
  ///ST/..DN2..DRIVER NAME..DN2..
- ///ST/..DT2..PASSAPORTO..DT2..
+ ///ST/..DT2..PASSPORT..DT2..
  ///ST/..DA2..AUTHORITY..DA2..
  ///ST/..DI2..1234567890..DN2..
  ///ST/..CN2..COMPANY NAME..CN2..
