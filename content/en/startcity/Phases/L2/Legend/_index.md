@@ -18,7 +18,7 @@ weight: 20
 |  DN  |     Y     | Driver Name               |                                                              |
 |  DT  |     Y     | Document Type             |                                                              |
 |  DA  |     Y     | Document Issuer Authority |                                                              |
-|  DN  |     Y     | Document Number           |                                                              |
+|  DI  |     Y     | Document Number           |                                                              |
 |  PN  |     Y     | PLATE #                   | Can be Repeated                                              |
 |  SN  |     Y     | SEAL #                    | Can be Repeated                                              |
 |  CN  |     N     | DRIVER COMPANY NAME       | Name of the company for which the driver works.              |
@@ -26,5 +26,5 @@ weight: 20
 | DN2  |     N     | DRIVER NAME               | 2nd DRIVER                                                   |
 | DT2  |     N     | DOCUMENT TYPE             | 2nd DRIVER                                                   |
 | DA2  |     N     | DOCUMENT AUTHORITY        | 2nd DRIVER                                                   |
-| DN2  |     N     | DOCUMENT NUMBER           | 2nd DRIVER                                                   |
+| DI2  |     N     | DOCUMENT NUMBER           | 2nd DRIVER                                                   |
 | CN2  |     N     | COMPANY NAME              | 2nd DRIVER    
