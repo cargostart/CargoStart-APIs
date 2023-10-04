@@ -48,7 +48,7 @@ weight: 10
  ///ST/..DT..PASSAPORTO..DT..
  ///ST/..DA..AUTHORITY..DA..
  ///ST/..DI..1234567890..DN..
- ///ST/..PN..AX086VZ..PN..
+ ///ST/..PN..AZ000ZZ..PN..
  ///ST/..SN..12345678..SN..
  ///ST/..CN..DRIVER COMPANY NAME..CN..
  ///ST/..TN..TRUCK COMPANY NAME..TN..
