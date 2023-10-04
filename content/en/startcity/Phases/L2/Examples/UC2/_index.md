@@ -45,7 +45,7 @@ OCI///ST/..S..1..S..
 ///ST/..H..MLE..H..
 ///ST/..AG..VCT..AG..
 ///ST/..DN..DRIVER NAME..DN..
-///ST/..DT..PASSAPORTO..DT..
+///ST/..DT..PASSPORT..DT..
 ///ST/..DA..AUTHORITY..DA..
 ///ST/..DI..1234567890..DN..
 ///ST/..PN..AZ000ZZ..PN..
