@@ -48,7 +48,7 @@ OCI///ST/..S..1..S..
 ///ST/..DT..PASSAPORTO..DT..
 ///ST/..DA..AUTHORITY..DA..
 ///ST/..DI..1234567890..DN..
-///ST/..PN..AX086VZ..PN..
+///ST/..PN..AZ000ZZ..PN..
 ///ST/..SN..12345678..SN..
 ///ST/..PN..AZ022GM..PN..
 ///ST/..SN..87654321..SN..
