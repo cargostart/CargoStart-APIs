@@ -13,6 +13,7 @@ weight: 20
 | :--: | :-------: | :------------------------ | :----------------------------------------------------------- |
 |  CI  |     N     | Customer ID               | Numeric Customer Identification Code (for internal purposes) |
 |  S   |     Y     | BORDEREAU SECURED         | 0 corresponds to FALSE and 1 to TRUE                         |
+| BDX  |     N     | BORDEREAU ID              | Customer Identification of Bordereau                         |
 |  H   |     N     | Handler                   | SmartCity Handler (es. MLE. ALH). If not indicated, Ecosystem Cargo MXP assigns it automatically |
 |  AG  |     Y     | Agent Code                |                                                              |
 |  DN  |     Y     | Driver Name               |                                                              |
