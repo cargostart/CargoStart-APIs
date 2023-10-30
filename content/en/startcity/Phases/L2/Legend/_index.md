@@ -13,7 +13,9 @@ weight: 20
 | :--: | :-------: | :------------------------ | :----------------------------------------------------------- |
 |  CI  |     N     | Customer ID               | Numeric Customer Identification Code (for internal purposes) |
 |  S   |     Y     | BORDEREAU SECURED         | 0 corresponds to FALSE and 1 to TRUE                         |
-|  H   |     N     | Handler                   | SmartCity Handler (es. MLE. ALH). If not indicated, Ecosystem Cargo MXP assigns it automatically |
+| BDX  |     N     | BORDEREAU ID              | Customer Identification for Bordereau		              |
+
+|  H   |     C 	   | Handler                   | SmartCity Handler (es. MLE. ALH). Mandatory for Phase 2. For Phase 1, if not indicated, Ecosystem Cargo MXP assigns it automatically |
 |  AG  |     Y     | Agent Code                |                                                              |
 |  DN  |     Y     | Driver Name               |                                                              |
 |  DT  |     Y     | Document Type             |                                                              |
