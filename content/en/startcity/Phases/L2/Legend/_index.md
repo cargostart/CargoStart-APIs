@@ -24,7 +24,7 @@ weight: 20
 |  CN  |     N     | DRIVER COMPANY NAME       | Name of the company for which the driver works.              |
 |  TN  |     N     | TRUCK COMPANY NAME        | Name of the company to which the truck belongs.              |
 | DN2  |     N     | DRIVER NAME               | 2nd DRIVER                                                   |
-| DT2  |     N     | DOCUMENT TYPE             | 2nd DRIVER                                                   |
+| DT2  |     N     | DOCUMENT TYPE             | 2nd DRIVER  TEST                                                 |
 | DA2  |     N     | DOCUMENT AUTHORITY        | 2nd DRIVER                                                   |
 | DI2  |     N     | DOCUMENT NUMBER           | 2nd DRIVER                                                   |
 | CN2  |     N     | COMPANY NAME              | 2nd DRIVER    
