@@ -12,7 +12,7 @@ weight: 20
 | Code | Mandatory | Name                      | Notes                                                        |
 | :--: | :-------: | :------------------------ | :----------------------------------------------------------- |
 |  CI  |     N     | Customer ID               | Numeric Customer Identification Code (for internal purposes) |
-|  S   |     Y     | BORDEREAU SECURED         | 0 corresponds to FALSE and 1 to TRUE                         |
+|  S   |     Y     | BORDEREAU SECURED         | 0 corresponds to FALSE and 1 to TRUE*                       |
 | BDX  |     N     | BORDEREAU ID              | Customer Identification for Bordereau		              |
 |  H   |     C 	   | Handler                   | SmartCity Handler (es. MLE. ALH). Mandatory for Phase 2. For Phase 1, if not indicated, Ecosystem Cargo MXP assigns it automatically |
 |  AG  |     Y     | Agent Code                |                                                              |
@@ -29,3 +29,6 @@ weight: 20
 | DA2  |     N     | DOCUMENT AUTHORITY        | 2nd DRIVER                                                   |
 | DI2  |     N     | DOCUMENT NUMBER           | 2nd DRIVER                                                   |
 | CN2  |     N     | COMPANY NAME              | 2nd DRIVER    
+
+
+*if bordereau is secured, Regulated Agent must be indicated
