@@ -3,7 +3,7 @@
 title: "Legend"
 linkTitle: "Legend"
 type: docs
-weight: 20
+weight: 40
 ---
 
 **LEGEND OF CODES AND FIELDS SPECIFICATION**:
