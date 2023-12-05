@@ -30,4 +30,4 @@ LAST
 ```
 
 > By default if "..AG.." tags are not present, FFCode will be the set as FFCode of FFM sender 
-if "..S.." tags are not present, IsBorderoSecured will be set to false 
+if "..S.." tags are not present, **the bordero is not secured**. 

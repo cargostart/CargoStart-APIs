@@ -29,6 +29,8 @@ weight: 40
 | DA2  |     N     | DOCUMENT AUTHORITY        | 2nd DRIVER                                                   |
 | DI2  |     N     | DOCUMENT NUMBER           | 2nd DRIVER                                                   |
 | CN2  |     N     | COMPANY NAME              | 2nd DRIVER    
+| DTI  |    N	   | Code of subject delegated to Transport Information | 	
+| DSI  | N			| Code of subject delegated to Security Information| 
+| DCD  |    N			| Code of subject delegated to Custom Declaration| 
 
-
-*if bordereau is secured, Regulated Agent must be indicated
+*if bordereau is secured, Regulated Agent must be indicated| 
