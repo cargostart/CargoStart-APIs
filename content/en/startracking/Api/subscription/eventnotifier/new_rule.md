@@ -221,7 +221,7 @@ The response is 200 OK:
     "HeaderItems": "",
     "FormatType": "Json",
     "Id": 189,
-    "ForwarderIdentifier": "SMECCIEOL",
+    "ForwarderIdentifier": "SMECCIXXXX",
     "AirlinePrefix": "*",
     "AwbNumber": "",
     "Event": "DEP,ARR,NFD,DLV",

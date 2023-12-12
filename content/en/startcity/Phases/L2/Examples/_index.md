@@ -3,5 +3,28 @@
 title: "Examples"
 linkTitle: "Examples"
 type: docs
-weight: 20
+weight: 40
 ---
+BORDEREAUX (SECURED WITH RA INDICATION) WITH TRASPORT INFORMATIONS
+
+
+FFM/8
+1/AA0000A/07DEC/MXP
+MXP
+074-51677194VCEPVG/T4K1.6MC0.0/CONSOL SHIPMENT
+020-95524284VCEPVG/T4K141MC1.5/OPTICAL ARTICLE
+OCI///ST/..S..1..S..
+/IT/ISS/RA/00125-01
+///ST/..H..MLE..H..
+///ST/..AG..CSF..AG..
+///ST/..DN..JOHN DOE..DN..
+///ST/..DT..DRIVE LICENSE..DT..
+///ST/..DA..LIC.AUTH...DA..
+///ST/..DI..ABC458879..DI..
+///ST/..PN..ZF 676 TG..PN..
+///ST/..SN..SEAL1..SN..
+///ST/..CN..JOHN DOE LTD..CN..
+///ST/..TN..JOHN DOE TRANSPORT..TN..
+LAST
+
+in this case the ..AG.. tag specify the FFCode as "CSF"
