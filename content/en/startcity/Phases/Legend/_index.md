@@ -8,12 +8,13 @@ weight: 40
 
 **LEGEND OF CODES AND FIELDS SPECIFICATION**:
 
+> The English meaning of Bordero is **DELIVERY NOTE**
 
 | Code | Mandatory | Name                      | Notes                                                        |
 | :--: | :-------: | :------------------------ | :----------------------------------------------------------- |
 |  CI  |     N     | Customer ID               | Numeric Customer Identification Code (for internal purposes) |
-|  S   |     Y     | BORDEREAU SECURED         | 0 corresponds to FALSE and 1 to TRUE*                       |
-| BDX  |     N     | BORDEREAU ID              | Customer Identification for Bordereau		              |
+|  S   |     Y     | Bordero is SECURED         | 0 corresponds to FALSE and 1 to TRUE*                       |
+| BDX  |     N     | Bordero ID              | Customer Identification for Bordero		              |
 |  H   |     C 	   | Handler                   | SmartCity Handler (es. MLE. ALH). Mandatory for Phase 2. For Phase 1, if not indicated, Ecosystem Cargo MXP assigns it automatically |
 |  AG  |     Y     | Agent Code                |                                                              |
 |  DN  |     Y     | Driver Name               |                                                              |
@@ -33,4 +34,4 @@ weight: 40
 | DSI  | N			| Code of subject delegated to Security Information| 
 | DCD  |    N			| Code of subject delegated to Custom Declaration| 
 
-*if bordereau is secured, Regulated Agent must be indicated| 
+*if Bordero is secured, Regulated Agent must be indicated| 

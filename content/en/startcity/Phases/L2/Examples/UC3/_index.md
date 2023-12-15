@@ -6,7 +6,7 @@ type: docs
 weight: 30
 ---
 
-> This example shows a BORDEREAU with the unique Borderau ID (e.g. VCT12345), TRANSPORT SECURITY AND OSI
+> This example shows a Bordero with the unique Borderau ID (e.g. VCT12345), TRANSPORT SECURITY AND OSI
 ```
 FFM/8
 1/CS0004A/07DEC/QVA
