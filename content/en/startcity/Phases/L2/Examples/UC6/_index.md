@@ -1,9 +1,9 @@
 
 ---
-title: "UC 5"
-linkTitle: "UC 5"
+title: "UC 6"
+linkTitle: "UC 6"
 type: docs
-weight: 50
+weight: 60
 ---
 
 > Bordero (SECURED WITH RA INDICATION) WITH TRASPORT INFORMATIONS
@@ -18,7 +18,7 @@ OCI///ST/..S..1..S..
 ///ST/..H..MLE..H..
 ///ST/..AG..CSF..AG..
 ///ST/..DN..JOHN DOE..DN..
-///ST/..DT..DRIVE LICENSE..DT..
+///ST/..DT..DRIVE LIC..DT..
 ///ST/..DA..LIC.AUTH...DA..
 ///ST/..DI..ABC458879..DI..
 ///ST/..PN..ZF 676 TG..PN..
