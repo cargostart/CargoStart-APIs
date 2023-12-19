@@ -16,7 +16,7 @@ MXP
 OCI///ST/..H..MLE..H..
 ///ST/..BDX..1234567..BDX..
 ///ST/..DN..JOHN DOE..DN..
-///ST/..DT..DRIVE LICENSE..DT..
+///ST/..DT..DRIVE LIC..DT..
 ///ST/..DA..LIC.AUTH...DA..
 ///ST/..DI..ABC458879..DI..
 ///ST/..PN..ZF 676 TG..PN..
