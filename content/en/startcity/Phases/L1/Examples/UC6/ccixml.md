@@ -304,7 +304,7 @@ description:
 		</SenderParticipantIdentification>
 	</SenderReference>
 	<CustomsOriginCode>
-		T2
+		X
 	</CustomsOriginCode>
 	<SpecialHandlingRequirements>
 		<SHR>
