@@ -12,6 +12,7 @@ weight: 40
 
 | Code | Mandatory | Name                      | Notes                                                        |
 | :--: | :-------: | :------------------------ | :----------------------------------------------------------- |
+|  C  |     N     |  Airport Customs Agent     | The Agent Code will do custom declaration inside the Airport  |
 |  CI  |     N     | Customer ID               | Numeric Customer Identification Code (for internal purposes) |
 |  S   |     Y     | Bordero is SECURED         | 0 corresponds to FALSE and 1 to TRUE*                       |
 | BDX  |     N     | Bordero ID              | Customer Identification for Bordero		              |
