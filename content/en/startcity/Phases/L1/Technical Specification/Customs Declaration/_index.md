@@ -18,5 +18,7 @@ The Custom Agent will carry out the customs operation at the airport with the fo
 
 ```
 /IT/COR//TBD
-///ST/..C..MARIO ROSSI..C..
+///ST/..C..XYZ..C..
 ```
+
+P.S: The custom agent field is a free text; by the way, to comply with the latest SEA SmartCity MXP guideline, the required value is the 3 digit SmartCityMXP Code.
