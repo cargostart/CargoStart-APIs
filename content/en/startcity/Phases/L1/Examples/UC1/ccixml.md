@@ -15,6 +15,11 @@ description:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Master xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageInfo>
+    <AgentCode>
+      12345678901
+    </AgentCode>
+	</MessageInfo>
   <VersionTypeNumber>16</VersionTypeNumber>
   <AWBConsignmentDetail>
     <AirlinePrefix>888</AirlinePrefix>

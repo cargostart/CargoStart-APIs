@@ -13,6 +13,11 @@ description:
 ### MAWB
 ```xml
 <Master xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  	<MessageInfo>
+		<AgentCode>
+		12345678901
+		</AgentCode>
+	</MessageInfo>
 	<VersionTypeNumber>
 		16
 	</VersionTypeNumber>
